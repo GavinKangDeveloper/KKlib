@@ -16,7 +16,9 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
       'KKLib' => ['KKLib/Assets/*.xcassets']
   }
-  s.source_files = 'KKLib/Categorys/*.{h,m}'
-  
+
+  s.subspec 'Categorys' do |ss|
+      ss.source_files = 'KKLib/Categorys/*.{h,m}'
+  end
   
 end

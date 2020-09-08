@@ -27,12 +27,8 @@
   },
   "subspecs": [
     {
-      "name": "UIKit",
-      "source_files": "KKLib/Classes/UIKit/*.{h,m}"
-    },
-    {
-      "name": "Category",
-      "source_files": "KKLib/Classes/Category/*.{h,m}"
+      "name": "Categorys",
+      "source_files": "KKLib/Categorys/*.{h,m}"
     }
   ]
 }

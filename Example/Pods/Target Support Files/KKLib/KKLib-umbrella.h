@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIControl+ClickInterval.h"
 
 FOUNDATION_EXPORT double KKLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char KKLibVersionString[];
