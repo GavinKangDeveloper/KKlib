@@ -20,11 +20,6 @@
     "ios": "9.0"
   },
   "requires_arc": true,
-  "resource_bundles": {
-    "KKLib": [
-      "KKLib/Assets/*.xcassets"
-    ]
-  },
   "subspecs": [
     {
       "name": "Categories",
