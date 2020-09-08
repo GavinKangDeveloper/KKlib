@@ -1,0 +1,16 @@
+PODS:
+  - KKLib (0.1.0)
+
+DEPENDENCIES:
+  - KKLib (from `../`)
+
+EXTERNAL SOURCES:
+  KKLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKLib: 67a1a050dc38c38adc19883bd09abc372d0c34ce
+
+PODFILE CHECKSUM: 2cf0fe7c079befe9c034a86c66182644b61e4b2a
+
+COCOAPODS: 1.9.3

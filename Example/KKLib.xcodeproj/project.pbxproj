@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1D013B4CAF4A8421D53EC977 /* Pods-KKLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-KKLib_Example/Pods-KKLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		216FA0ADCDB6D4BA30398EA8 /* Pods-KKLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-KKLib_Tests/Pods-KKLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5AAB14D7BC196D1E86E12A7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5AAB14D7BC196D1E86E12A7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5BD761959A152DBB15EC6BB5 /* Pods_KKLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* KKLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,8 +60,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6D9C96B2BD6A723201C40846 /* KKLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KKLib.podspec; path = ../KKLib.podspec; sourceTree = "<group>"; };
-		6DE812807CB6E272A1B13997 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6D9C96B2BD6A723201C40846 /* KKLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KKLib.podspec; path = ../KKLib.podspec; sourceTree = "<group>"; };
+		6DE812807CB6E272A1B13997 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D875C2784813CF8E9FA6598A /* Pods-KKLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKLib_Example.release.xcconfig"; path = "Target Support Files/Pods-KKLib_Example/Pods-KKLib_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				F8B3779ABEA5357909720EAE /* Pods-KKLib_Tests.debug.xcconfig */,
 				216FA0ADCDB6D4BA30398EA8 /* Pods-KKLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKLib/KKLib-Prefix.pch";
 				INFOPLIST_FILE = "KKLib/KKLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKLib/KKLib-Prefix.pch";
 				INFOPLIST_FILE = "KKLib/KKLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

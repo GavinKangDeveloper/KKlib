@@ -1,0 +1,38 @@
+{
+  "name": "KKLib",
+  "version": "0.0.1",
+  "summary": "封装常用的功能的分类",
+  "description": "封装常用的分类和功能。",
+  "homepage": "https://github.com/GavinKangDeveloper/KKLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "KangKang": "776362265@qq.com.com"
+  },
+  "source": {
+    "git": "https://github.com/GavinKangDeveloper/KKLib.git",
+    "tag": "0.0.1"
+  },
+  "social_media_url": "https://juejin.im/user/1433418895468397/posts",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "resource_bundles": {
+    "KKLib": [
+      "KKLib/Assets/*.xcassets"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "UIKit",
+      "source_files": "KKLib/Classes/UIKit/*.{h,m}"
+    },
+    {
+      "name": "Category",
+      "source_files": "KKLib/Classes/Category/*.{h,m}"
+    }
+  ]
+}

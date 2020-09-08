@@ -1,0 +1,6 @@
+framework module KKLib {
+  umbrella header "KKLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
