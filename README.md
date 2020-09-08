@@ -10,19 +10,21 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- iOS 9+
+- Xcode 7+
 
 ## Installation
 
 KKLib is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+```
 pod 'KKLib'
 ```
 
 ## Author
 
-GavinKangDeveloper, zhukangkang@yishouapp.com
+KangKang, 776362265@qq.com
 
 ## License
 
