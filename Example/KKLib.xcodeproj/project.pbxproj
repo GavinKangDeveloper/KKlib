@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = GavinKangDeveloper;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 5652N8GDSW;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 1D013B4CAF4A8421D53EC977 /* Pods-KKLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5652N8GDSW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKLib/KKLib-Prefix.pch";
 				INFOPLIST_FILE = "KKLib/KKLib-Info.plist";
@@ -511,6 +515,7 @@
 			baseConfigurationReference = D875C2784813CF8E9FA6598A /* Pods-KKLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5652N8GDSW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKLib/KKLib-Prefix.pch";
 				INFOPLIST_FILE = "KKLib/KKLib-Info.plist";

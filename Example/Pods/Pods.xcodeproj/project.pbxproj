@@ -9,16 +9,20 @@
 /* Begin PBXBuildFile section */
 		0ABCFD5D7014900567C96ACCB46CDF28 /* Pods-KKLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C6331A6A70F870F34A661ED3D85C55 /* Pods-KKLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12AF4DB327BFED4F32960FF1E74CA680 /* KKLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF776B961DAB91D28BCC6A33FF49A40A /* KKLib.bundle */; };
-		3BBA75A01B7D3E2636F6940A21DCA1DF /* UIControl+ClickInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = AF71013D6BEFDF1E24AD60595DDC7159 /* UIControl+ClickInterval.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		324FE0E525072A9B006807FB /* UIControl+ClickInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = 324FE0E125072A9B006807FB /* UIControl+ClickInterval.h */; };
+		324FE0E625072A9B006807FB /* UIControl+ClickInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 324FE0E225072A9B006807FB /* UIControl+ClickInterval.m */; };
+		324FE0E725072A9B006807FB /* KKLib.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324FE0E425072A9B006807FB /* KKLib.xcassets */; };
+		324FE0E925072E37006807FB /* KKStyleConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 324FE0E825072E37006807FB /* KKStyleConfig.h */; };
+		324FE0EB25075182006807FB /* KKToolConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 324FE0EA25075182006807FB /* KKToolConfig.h */; };
+		324FE0EE25075429006807FB /* KKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 324FE0EC25075429006807FB /* KKDevice.h */; };
+		324FE0EF25075429006807FB /* KKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 324FE0ED25075429006807FB /* KKDevice.m */; };
 		51D50CFB4162BA0A4F73A60FEE6C2F75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		717B0C43F9D950F1D6E47BBDC794B0C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		80705882AB30554B245D33761CE7AF54 /* Pods-KKLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5938E0A82A3F3846D545BD714D1E9A /* Pods-KKLib_Example-dummy.m */; };
-		9A13C54B09504759380EE0D3A200D7F6 /* UIControl+ClickInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BF8D9BCE4F635173B25B4810D540CD /* UIControl+ClickInterval.m */; };
 		B2157612FB2F28E064B08BF651B55829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B92A88070C0783EDB16F6666D08121C3 /* Pods-KKLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 215E86E665FE47FCA98DB88CBD6652BB /* Pods-KKLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C26A5817A661F3168D79D5869B8A98E7 /* Pods-KKLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309E0550A9D5C2901700600094D16C8 /* Pods-KKLib_Tests-dummy.m */; };
 		E9A8EDD20C7D23D42BE5D66CE8603DFF /* KKLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59825C1B1C2F1A367C5C413FA597B8D1 /* KKLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED9248BDBBC3EA5776DD81EC56FDD218 /* KKLib.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B633AD056F91C49CA0C423C9423B7B /* KKLib.xcassets */; };
 		FD368088C248072C97387C7364FBBE95 /* KKLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5CB5EEE111609F83016275D95975A0 /* KKLib-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -47,16 +51,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		064BE1E1A2F0C655F0FCEED2C4136378 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0F5938E0A82A3F3846D545BD714D1E9A /* Pods-KKLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKLib_Example-dummy.m"; sourceTree = "<group>"; };
 		1899E51AC9D703AAD7C57CAA192C8063 /* Pods-KKLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		215E86E665FE47FCA98DB88CBD6652BB /* Pods-KKLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		28C6331A6A70F870F34A661ED3D85C55 /* Pods-KKLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		324FE0E125072A9B006807FB /* UIControl+ClickInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+ClickInterval.h"; sourceTree = "<group>"; };
+		324FE0E225072A9B006807FB /* UIControl+ClickInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+ClickInterval.m"; sourceTree = "<group>"; };
+		324FE0E425072A9B006807FB /* KKLib.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = KKLib.xcassets; sourceTree = "<group>"; };
+		324FE0E825072E37006807FB /* KKStyleConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKStyleConfig.h; sourceTree = "<group>"; };
+		324FE0EA25075182006807FB /* KKToolConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKToolConfig.h; sourceTree = "<group>"; };
+		324FE0EC25075429006807FB /* KKDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKDevice.h; sourceTree = "<group>"; };
+		324FE0ED25075429006807FB /* KKDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKDevice.m; sourceTree = "<group>"; };
 		375BE1D0953726E36E1826E06A17FCF0 /* KKLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKLib-prefix.pch"; sourceTree = "<group>"; };
 		3A06D134153574964436C323A6131E3C /* KKLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKLib.modulemap; sourceTree = "<group>"; };
-		484AFC3DFD2F9D86D054EBAA2F1034C8 /* KKLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKLib.framework; path = KKLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49BDAF1E175ED5C236EE7BA5622D46B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		484AFC3DFD2F9D86D054EBAA2F1034C8 /* KKLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FE8A9B0284B44D9CF098C6B801E67F /* KKLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKLib-Info.plist"; sourceTree = "<group>"; };
 		506562E0E1B20EBC5B8F60534B4D2463 /* Pods-KKLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		56DB83D258DC7F403EFA8E99531F169D /* Pods-KKLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKLib_Example.modulemap"; sourceTree = "<group>"; };
@@ -65,24 +74,20 @@
 		6309E0550A9D5C2901700600094D16C8 /* Pods-KKLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		7A82F145361CC4247E80EFDFA9459D40 /* Pods-KKLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		83A514A79D367070C7E0FE3F83E28C18 /* Pods-KKLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKLib_Tests.modulemap"; sourceTree = "<group>"; };
-		93F145189F0EB55395179B698D4615C8 /* Pods_KKLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKLib_Example.framework; path = "Pods-KKLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F145189F0EB55395179B698D4615C8 /* Pods_KKLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		942C79E54AE236652E47180FF859F7B6 /* Pods-KKLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		96A21358A0D4434194432D5F6E4EF46A /* KKLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKLib.debug.xcconfig; sourceTree = "<group>"; };
 		9D5CB5EEE111609F83016275D95975A0 /* KKLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKLib-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1DA3C7F10CB43D4F397BA5616590485 /* Pods-KKLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A6F3BA8BB284C69A485B518D1756DFA4 /* Pods-KKLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A86FDA52A759515F7B75071C570257E3 /* Pods-KKLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		ACFFC98345CC72916EE12D75C66903BE /* Pods_KKLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKLib_Tests.framework; path = "Pods-KKLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF71013D6BEFDF1E24AD60595DDC7159 /* UIControl+ClickInterval.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+ClickInterval.h"; path = "KKLib/Categorys/UIControl+ClickInterval.h"; sourceTree = "<group>"; };
-		B4B633AD056F91C49CA0C423C9423B7B /* KKLib.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = KKLib.xcassets; path = KKLib/Assets/KKLib.xcassets; sourceTree = "<group>"; };
+		ACFFC98345CC72916EE12D75C66903BE /* Pods_KKLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71D3066966034911FDE26DCAAECB264 /* ResourceBundle-KKLib-KKLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KKLib-KKLib-Info.plist"; sourceTree = "<group>"; };
 		BA6EA958B0F813C8D63A835E3E3BCB92 /* Pods-KKLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKLib_Example-Info.plist"; sourceTree = "<group>"; };
-		BF776B961DAB91D28BCC6A33FF49A40A /* KKLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = KKLib.bundle; path = "KKLib-KKLib.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6BF8D9BCE4F635173B25B4810D540CD /* UIControl+ClickInterval.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+ClickInterval.m"; path = "KKLib/Categorys/UIControl+ClickInterval.m"; sourceTree = "<group>"; };
+		BF776B961DAB91D28BCC6A33FF49A40A /* KKLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBCF156543DBADF88F273C0929E3F586 /* Pods-KKLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DF047E931058447B11D02FF79604D736 /* Pods-KKLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E785A1FA40E1516A78920855A1F11618 /* KKLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FFBFC3D2B337914984FD34B592E9D307 /* Pods-KKLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,14 +142,51 @@
 			path = "Target Support Files/Pods-KKLib_Tests";
 			sourceTree = "<group>";
 		};
-		43EC49880583DA4AA7C99C3A0C9B6E84 /* Pod */ = {
+		324FE0DB25072A9A006807FB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E785A1FA40E1516A78920855A1F11618 /* KKLib.podspec */,
-				49BDAF1E175ED5C236EE7BA5622D46B4 /* LICENSE */,
-				064BE1E1A2F0C655F0FCEED2C4136378 /* README.md */,
+				324FE0DC25072A9A006807FB /* Tools */,
+				324FE0DE25072A9A006807FB /* Configs */,
+				324FE0E025072A9B006807FB /* Categories */,
 			);
-			name = Pod;
+			name = Classes;
+			path = KKLib/Classes;
+			sourceTree = "<group>";
+		};
+		324FE0DC25072A9A006807FB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				324FE0EC25075429006807FB /* KKDevice.h */,
+				324FE0ED25075429006807FB /* KKDevice.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		324FE0DE25072A9A006807FB /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				324FE0E825072E37006807FB /* KKStyleConfig.h */,
+				324FE0EA25075182006807FB /* KKToolConfig.h */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		324FE0E025072A9B006807FB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				324FE0E125072A9B006807FB /* UIControl+ClickInterval.h */,
+				324FE0E225072A9B006807FB /* UIControl+ClickInterval.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		324FE0E325072A9B006807FB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				324FE0E425072A9B006807FB /* KKLib.xcassets */,
+			);
+			name = Assets;
+			path = KKLib/Assets;
 			sourceTree = "<group>";
 		};
 		50B7B6DEEABDA22C90228FAE80B58D9A /* Products */ = {
@@ -170,22 +212,12 @@
 		53AD67F4E9F22DA81D62966FE6653F1F /* KKLib */ = {
 			isa = PBXGroup;
 			children = (
-				AF71013D6BEFDF1E24AD60595DDC7159 /* UIControl+ClickInterval.h */,
-				C6BF8D9BCE4F635173B25B4810D540CD /* UIControl+ClickInterval.m */,
-				43EC49880583DA4AA7C99C3A0C9B6E84 /* Pod */,
-				6E80CAB8F4BA125586B78B3EA6B78F19 /* Resources */,
+				324FE0E325072A9B006807FB /* Assets */,
+				324FE0DB25072A9A006807FB /* Classes */,
 				8D49CF68F2C5921BA5C82DB33C44733D /* Support Files */,
 			);
 			name = KKLib;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		6E80CAB8F4BA125586B78B3EA6B78F19 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B4B633AD056F91C49CA0C423C9423B7B /* KKLib.xcassets */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		8D49CF68F2C5921BA5C82DB33C44733D /* Support Files */ = {
@@ -271,8 +303,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324FE0E525072A9B006807FB /* UIControl+ClickInterval.h in Headers */,
+				324FE0E925072E37006807FB /* KKStyleConfig.h in Headers */,
+				324FE0EB25075182006807FB /* KKToolConfig.h in Headers */,
+				324FE0EE25075429006807FB /* KKDevice.h in Headers */,
 				E9A8EDD20C7D23D42BE5D66CE8603DFF /* KKLib-umbrella.h in Headers */,
-				3BBA75A01B7D3E2636F6940A21DCA1DF /* UIControl+ClickInterval.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +431,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED9248BDBBC3EA5776DD81EC56FDD218 /* KKLib.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12AF4DB327BFED4F32960FF1E74CA680 /* KKLib.bundle in Resources */,
+				324FE0E725072A9B006807FB /* KKLib.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,8 +472,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324FE0EF25075429006807FB /* KKDevice.m in Sources */,
 				FD368088C248072C97387C7364FBBE95 /* KKLib-dummy.m in Sources */,
-				9A13C54B09504759380EE0D3A200D7F6 /* UIControl+ClickInterval.m in Sources */,
+				324FE0E625072A9B006807FB /* UIControl+ClickInterval.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,8 +667,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

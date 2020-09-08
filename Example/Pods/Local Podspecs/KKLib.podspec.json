@@ -27,8 +27,16 @@
   },
   "subspecs": [
     {
-      "name": "Categorys",
-      "source_files": "KKLib/Categorys/*.{h,m}"
+      "name": "Categories",
+      "source_files": "KKLib/Classes/Categories/*.{h,m}"
+    },
+    {
+      "name": "Tools",
+      "source_files": "KKLib/Classes/Tools/*.{h,m}"
+    },
+    {
+      "name": "Configs",
+      "source_files": "KKLib/Classes/Configs/*.{h,m}"
     }
   ]
 }

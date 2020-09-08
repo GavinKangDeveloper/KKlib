@@ -17,8 +17,16 @@ Pod::Spec.new do |s|
       'KKLib' => ['KKLib/Assets/*.xcassets']
   }
 
-  s.subspec 'Categorys' do |ss|
-      ss.source_files = 'KKLib/Categorys/*.{h,m}'
+  s.subspec 'Categories' do |ss|
+      ss.source_files = 'KKLib/Classes/Categories/*.{h,m}'
+  end
+  
+  s.subspec 'Tools' do |ss|
+      ss.source_files = 'KKLib/Classes/Tools/*.{h,m}'
+  end
+  
+  s.subspec 'Configs' do |ss|
+      ss.source_files = 'KKLib/Classes/Configs/*.{h,m}'
   end
   
 end
