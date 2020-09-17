@@ -7,7 +7,7 @@ target 'KKLib_Example' do
 
   target 'KKLib_Tests' do
     inherit! :search_paths
-
     
   end
+  
 end

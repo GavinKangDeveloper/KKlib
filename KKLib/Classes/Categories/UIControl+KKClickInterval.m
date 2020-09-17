@@ -1,12 +1,12 @@
 //
-//  UIControl+ClickInterval.m
+//  UIControl+KKClickInterval.m
 //  DemoYiXinLi
 //
 //  Created by kangkang zhu on 2020/4/28.
 //  Copyright © 2020 KangkangZhu. All rights reserved.
 //
 
-#import "UIControl+ClickInterval.h"
+#import "UIControl+KKClickInterval.h"
 #import <objc/runtime.h>
 
 static double kDefaultInterval = 0.5;
@@ -17,9 +17,9 @@ static double kDefaultInterval = 0.5;
 @property (strong, nonatomic) NSMutableArray *arrsControl;
 @end
 
-@implementation UIControl (ClickInterval)
+@implementation UIControl (KKClickInterval)
 
-+ (void)exchangeClickMethod {
++ (void)kk_exchangeClickMethod {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         SEL originalSel = @selector(sendAction:to:forEvent:);

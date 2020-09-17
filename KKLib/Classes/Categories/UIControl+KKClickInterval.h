@@ -10,10 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIControl (ClickInterval)
+@interface UIControl (KKClickInterval)
 /// 点击事件响应的时间间隔
 @property (nonatomic, assign) NSTimeInterval clickInterval;
-+ (void)exchangeClickMethod;
++ (void)kk_exchangeClickMethod;
 @end
 
 NS_ASSUME_NONNULL_END

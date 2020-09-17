@@ -10,7 +10,12 @@
 #endif
 #endif
 
-#import "UIControl+ClickInterval.h"
+#import "NSString+KKTools.h"
+#import "NSTimer+KKWeakTimer.h"
+#import "UIApplication+KKVisible.h"
+#import "UIControl+KKClickInterval.h"
+#import "UILabel+Tools.h"
+#import "UIView+Tools.h"
 #import "KKStyleConfig.h"
 #import "KKToolConfig.h"
 #import "KKDevice.h"

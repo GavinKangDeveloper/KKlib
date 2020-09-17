@@ -25,10 +25,6 @@
 #define kkBoldFontOfSize(font) [UIFont boldSystemFontOfSize:font]
 
 
-#pragma mark - 颜色
-
-
-
 #pragma mark - iOS 版本
 #define kkOSVersion [[[UIDevice currentDevice] systemVersion] floatValue]
 #define kkFuncGreaterThanOrEqualToOSVersion(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
@@ -43,6 +39,7 @@
 
 #pragma mark - 判断机型
 #define kkFuncCheckDevice(deviceName) ([[UIDevice currentDevice].model isEqualToString:deviceName])
+
 
 #pragma mark - 是否是 iPhone、iPad、模拟器
 #define kkIsPhone     (kkFuncCheckDevice(@"iPhone") || kkFuncCheckDevice(@"iPhone Simulator"))

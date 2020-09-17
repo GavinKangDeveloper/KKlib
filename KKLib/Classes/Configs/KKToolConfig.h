@@ -22,7 +22,7 @@
 value = [dic objectForKey:key]; \
 } else { value = @""; }
 
-#define KKFuncSetSafeIntegerFromDic(value, dic, key) if([[dic objectForKey:key] isKindOfClass:[NSString class]] || [[dic objectForKey:key] isKindOfClass:[NSNumber class]]) { \
+#define kkFuncSetSafeIntegerFromDic(value, dic, key) if([[dic objectForKey:key] isKindOfClass:[NSString class]] || [[dic objectForKey:key] isKindOfClass:[NSNumber class]]) { \
 value = [[dic objectForKey:key] integerValue]; \
 } else { value = 0; }
 
