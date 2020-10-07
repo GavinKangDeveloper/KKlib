@@ -7,7 +7,7 @@
 //
 
 #import "KKViewController.h"
-#import "UIView+Tools.h"
+#import "UIView+KKTools.h"
 
 @interface KKViewController ()
 @property (weak, nonatomic) IBOutlet UIView *topView;

@@ -8,45 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		0ABCFD5D7014900567C96ACCB46CDF28 /* Pods-KKLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C6331A6A70F870F34A661ED3D85C55 /* Pods-KKLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23FA38859285F4B9ED723BA2047D13A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		28B4C74BC03A4C0BDF405EB9DA97613D /* NSString+KKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EF55DCB268496BF90E35354A421672 /* NSString+KKTools.m */; };
-		3212635A2512FE7700210AFA /* UIImage+KKTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 321263582512FE7700210AFA /* UIImage+KKTools.h */; };
-		3212635B2512FE7700210AFA /* UIImage+KKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 321263592512FE7700210AFA /* UIImage+KKTools.m */; };
-		3212635E251301CE00210AFA /* UIImageView+KKTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 3212635C251301CE00210AFA /* UIImageView+KKTools.h */; };
-		3212635F251301CE00210AFA /* UIImageView+KKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3212635D251301CE00210AFA /* UIImageView+KKTools.m */; };
+		18994E7CC22A6D6BF67DB95F98D84E8F /* KKLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7490BC61DB05400F2FEB77892AB9291B /* KKLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3739E3DBC138FD25E4C0C6C53C408F77 /* UIControl+KKClickInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = D20046189A92F4FEAA2230A0FC78BCD1 /* UIControl+KKClickInterval.m */; };
+		3E1E2693A6522519FCCEFB0D2DA6F61D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3E483A9B22245B58065B2E00B3F6EDC3 /* KKLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A1A22DE9C614168EE69CAA31D82FB9 /* KKLib-dummy.m */; };
+		4ADD9F02CD777A287B834AAC4C8BCCD4 /* UIImage+KKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 284E5B139F475CC25BDB5D22BE66A5B6 /* UIImage+KKTools.m */; };
+		4BE7B916E7ADD49D41F7DA52787B3348 /* NSTimer+KKWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 760650C5586FFFFC688966928E6DAA65 /* NSTimer+KKWeakTimer.m */; };
 		51D50CFB4162BA0A4F73A60FEE6C2F75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		573718C7D093342841F272882200A9E3 /* NSTimer+KKWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = E64BAA03D3CBC76CEE011A954F67E4C0 /* NSTimer+KKWeakTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F516094CA303DCF772BF5CD387AA491 /* KKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 607B2BF1DFC123C6B76B3311379F9DCD /* KKDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		717B0C43F9D950F1D6E47BBDC794B0C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		71AFB89F010C4A7C2CE98CD281D0E6EA /* UIControl+KKClickInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = 70789251734076AA2F25E0242AC94310 /* UIControl+KKClickInterval.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77F2896C752955A58458590A4BBC4F3A /* UILabel+KKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AD807BBC70093F25498CCDDF0DF93A /* UILabel+KKTools.m */; };
 		80705882AB30554B245D33761CE7AF54 /* Pods-KKLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5938E0A82A3F3846D545BD714D1E9A /* Pods-KKLib_Example-dummy.m */; };
-		853B7BD3619EADEDFB3B5749FD339405 /* KKStyleConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B2594AF30EB509812EF5E05141A99D52 /* KKStyleConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E662B016459ED2FA13E937A0587123D /* UILabel+KKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D027CD06A46AD1967DF07373FEAEE452 /* UILabel+KKTools.m */; };
-		900D6DE4ED35141934A3ADC8126E8751 /* KKLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AADDCE45B8B1D402F89DE9913F667A /* KKLib-dummy.m */; };
-		97F717AE3650F0DE3072D38FAB9B5F35 /* KKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F65A1AD5C7DCAAA961D0ED2714D0535 /* KKDevice.m */; };
-		A4927A9F763EDA3FB28BDD43D4C39D58 /* UIApplication+KKVisible.m in Sources */ = {isa = PBXBuildFile; fileRef = 0340FBE16E68A00123B7950966462E22 /* UIApplication+KKVisible.m */; };
+		8562DBAE48463434EB9088A8B040B511 /* UIApplication+KKVisible.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3197B8DFB278DBFEC2529A1AF0CA16 /* UIApplication+KKVisible.m */; };
+		925263E70E48F852C7B0052464EE69D7 /* KKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ACB107274B4E8B178505EADBB35007 /* KKDevice.m */; };
+		96BFF4F9D4FD8B1F816328BDCE5CD617 /* UIView+KKTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 3266ECDE31D17FC586A9485783905855 /* UIView+KKTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A62C5F1996629DF6C2F94D1324D4AACD /* UIImage+KKTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 135D8CB544C40479C15CEC46160B293F /* UIImage+KKTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC788D1A4F603AFB68E88F93F1407C42 /* KKStyleConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A56E5564C26C6A9E2C9BF1403C4401F0 /* KKStyleConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEBB633A260174652012FFB28CD1E39A /* NSString+KKTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E0836750063C1445387D0BCA190B461 /* NSString+KKTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B11463983A962F523572386F6C9E14E8 /* UILabel+KKTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3FE33FBF0172D1F09EF1C2FE00D34D /* UILabel+KKTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6C38ADC0319788E191D60FE3861125A /* UIImageView+KKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF64C89A8F0D169ED63891E348D368E /* UIImageView+KKTools.m */; };
 		B92A88070C0783EDB16F6666D08121C3 /* Pods-KKLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 215E86E665FE47FCA98DB88CBD6652BB /* Pods-KKLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCA1C5CAA02A9622958807E2FF5B567A /* UIApplication+KKVisible.h in Headers */ = {isa = PBXBuildFile; fileRef = 1988806522C7C85B7DED4ACB027D6A39 /* UIApplication+KKVisible.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C26A5817A661F3168D79D5869B8A98E7 /* Pods-KKLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309E0550A9D5C2901700600094D16C8 /* Pods-KKLib_Tests-dummy.m */; };
-		D79BB2CB26E38E6BA2C18CE129DFF986 /* NSTimer+KKWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E80A19D72DAEFFFF845FFCBA3615BB4 /* NSTimer+KKWeakTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D854BDD948CBF51810668A38E47BDE3C /* UIControl+KKClickInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = D842A516A9F823D7D6D3A6B7D7855D41 /* UIControl+KKClickInterval.m */; };
-		D88ED2EB6DD5A77A95479BA73095F3F1 /* UIView+KKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7BCC1104468D3EE79CA675E96BE0D9 /* UIView+KKTools.m */; };
-		DD466FB30FD27BAD428C6FC680A7E307 /* UILabel+KKTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 6411D745F0D7CC32020FB3B7E6C82762 /* UILabel+KKTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEBB51D8224A264753280C392C737DFD /* KKDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D99004ABF47A5FC646371B6A1CF2DA /* KKDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E229108EC8B3D2B81E4653BC0B2CDABB /* UIView+KKTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 45149ED7C8545D8F733C454188C9BD68 /* UIView+KKTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E92E50327CF4FB7903126022F6613E5B /* KKToolConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F72B31195BB6C0FA5A08CEF9FF611F3D /* KKToolConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC796859E7F51BE9031D6405D1EBCEDB /* KKLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13BCF3270D1D832955AE3E2D7E1E03D3 /* KKLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCA2986BB6ACB304F98EDB9AE6879BA4 /* NSString+KKTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CD04357C3522542831CE30D49AB3538C /* NSString+KKTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE591EFD3FF50874B408771CB0AF2F9A /* UIControl+KKClickInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = D38009AB61A894B09E92618C8F87DAD7 /* UIControl+KKClickInterval.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFAB27E9508ACF6011F4E8AB5F58A8A1 /* NSTimer+KKWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CA95BBD5B9C43B2997DE99F1A59185 /* NSTimer+KKWeakTimer.m */; };
+		C4B75AFB8DE07D43FDEFF215B51A9E4A /* NSString+KKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E232BEE7A69A988278EA169766B59CE /* NSString+KKTools.m */; };
+		C6EE523183BCB4DD253896C183EFA1DA /* UIApplication+KKVisible.h in Headers */ = {isa = PBXBuildFile; fileRef = 38AE82571615D1E60700089271EBD6A0 /* UIApplication+KKVisible.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEE75C55E14CE971539681D2D88DA4A2 /* KKToolConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AA794488B70BE33486DB15113F1AFAF3 /* KKToolConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA357234341D271FC4366822B60A840B /* UIImageView+KKTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BEA7739B6FADF99429C4093F5803B89 /* UIImageView+KKTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDC4A841CC8079D7C9B28B588B8F77DB /* UIView+KKTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D75F0B572C6F627368F810AF9081E407 /* UIView+KKTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		550E6B54E1C208D486FC50387E570F7E /* PBXContainerItemProxy */ = {
+		8AD995530D044A80E6E6A462033B83E5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4361A5FE9622311B019B183FEDCD9434;
 			remoteInfo = KKLib;
 		};
-		9AF4BADC7E4DBD50F8A4535B0C333A93 /* PBXContainerItemProxy */ = {
+		9FDDB157D6ACE4B68AF81BAC6381F1FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -56,57 +56,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0340FBE16E68A00123B7950966462E22 /* UIApplication+KKVisible.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+KKVisible.m"; path = "KKLib/Classes/Categories/UIApplication+KKVisible.m"; sourceTree = "<group>"; };
 		0F5938E0A82A3F3846D545BD714D1E9A /* Pods-KKLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKLib_Example-dummy.m"; sourceTree = "<group>"; };
-		13BCF3270D1D832955AE3E2D7E1E03D3 /* KKLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKLib-umbrella.h"; sourceTree = "<group>"; };
+		135D8CB544C40479C15CEC46160B293F /* UIImage+KKTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KKTools.h"; path = "KKLib/Classes/Categories/UIImage+KKTools.h"; sourceTree = "<group>"; };
+		17A1A22DE9C614168EE69CAA31D82FB9 /* KKLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKLib-dummy.m"; sourceTree = "<group>"; };
 		1899E51AC9D703AAD7C57CAA192C8063 /* Pods-KKLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1988806522C7C85B7DED4ACB027D6A39 /* UIApplication+KKVisible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+KKVisible.h"; path = "KKLib/Classes/Categories/UIApplication+KKVisible.h"; sourceTree = "<group>"; };
+		1ECC93158DDAD6734A4DEB5A0CDAA292 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		215E86E665FE47FCA98DB88CBD6652BB /* Pods-KKLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		28485E48A7BB6A691A7C6B406A3FB166 /* KKLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKLib.debug.xcconfig; sourceTree = "<group>"; };
+		24ACB107274B4E8B178505EADBB35007 /* KKDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKDevice.m; path = KKLib/Classes/Tools/KKDevice.m; sourceTree = "<group>"; };
+		284E5B139F475CC25BDB5D22BE66A5B6 /* UIImage+KKTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KKTools.m"; path = "KKLib/Classes/Categories/UIImage+KKTools.m"; sourceTree = "<group>"; };
 		28C6331A6A70F870F34A661ED3D85C55 /* Pods-KKLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2A593F8A62856C961FED1CB6A50611A7 /* KKLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2B3197B8DFB278DBFEC2529A1AF0CA16 /* UIApplication+KKVisible.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+KKVisible.m"; path = "KKLib/Classes/Categories/UIApplication+KKVisible.m"; sourceTree = "<group>"; };
+		2D3FE33FBF0172D1F09EF1C2FE00D34D /* UILabel+KKTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+KKTools.h"; path = "KKLib/Classes/Categories/UILabel+KKTools.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		321263582512FE7700210AFA /* UIImage+KKTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIImage+KKTools.h"; path = "KKLib/Classes/Categories/UIImage+KKTools.h"; sourceTree = "<group>"; };
-		321263592512FE7700210AFA /* UIImage+KKTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KKTools.m"; path = "KKLib/Classes/Categories/UIImage+KKTools.m"; sourceTree = "<group>"; };
-		3212635C251301CE00210AFA /* UIImageView+KKTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KKTools.h"; sourceTree = "<group>"; };
-		3212635D251301CE00210AFA /* UIImageView+KKTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KKTools.m"; sourceTree = "<group>"; };
-		36903BB8F44E26D3D036385A7D119451 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		45149ED7C8545D8F733C454188C9BD68 /* UIView+KKTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KKTools.h"; path = "KKLib/Classes/Categories/UIView+KKTools.h"; sourceTree = "<group>"; };
-		484AFC3DFD2F9D86D054EBAA2F1034C8 /* KKLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48EF55DCB268496BF90E35354A421672 /* NSString+KKTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+KKTools.m"; path = "KKLib/Classes/Categories/NSString+KKTools.m"; sourceTree = "<group>"; };
-		496FC8952A95063148C6A1B5515C2907 /* KKLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKLib-Info.plist"; sourceTree = "<group>"; };
-		4E071A8237828A1ED4C9CC395ABC39ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3266ECDE31D17FC586A9485783905855 /* UIView+KKTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KKTools.h"; path = "KKLib/Classes/Categories/UIView+KKTools.h"; sourceTree = "<group>"; };
+		38AE82571615D1E60700089271EBD6A0 /* UIApplication+KKVisible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+KKVisible.h"; path = "KKLib/Classes/Categories/UIApplication+KKVisible.h"; sourceTree = "<group>"; };
+		44CD053EE4FC26EA0CBE7295D0FFAE1C /* KKLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKLib.modulemap; sourceTree = "<group>"; };
+		484AFC3DFD2F9D86D054EBAA2F1034C8 /* KKLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKLib.framework; path = KKLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		506562E0E1B20EBC5B8F60534B4D2463 /* Pods-KKLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		56DB83D258DC7F403EFA8E99531F169D /* Pods-KKLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKLib_Example.modulemap"; sourceTree = "<group>"; };
+		5E237A7246D69A3EFC18CB1BFFA17EDD /* KKLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKLib-prefix.pch"; sourceTree = "<group>"; };
+		5FF64C89A8F0D169ED63891E348D368E /* UIImageView+KKTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+KKTools.m"; path = "KKLib/Classes/Categories/UIImageView+KKTools.m"; sourceTree = "<group>"; };
+		607B2BF1DFC123C6B76B3311379F9DCD /* KKDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKDevice.h; path = KKLib/Classes/Tools/KKDevice.h; sourceTree = "<group>"; };
 		6309E0550A9D5C2901700600094D16C8 /* Pods-KKLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		6411D745F0D7CC32020FB3B7E6C82762 /* UILabel+KKTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+KKTools.h"; path = "KKLib/Classes/Categories/UILabel+KKTools.h"; sourceTree = "<group>"; };
-		75F7130DF576B9CE5F3C03965F428EBD /* KKLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKLib-prefix.pch"; sourceTree = "<group>"; };
+		6BEA7739B6FADF99429C4093F5803B89 /* UIImageView+KKTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+KKTools.h"; path = "KKLib/Classes/Categories/UIImageView+KKTools.h"; sourceTree = "<group>"; };
+		70789251734076AA2F25E0242AC94310 /* UIControl+KKClickInterval.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+KKClickInterval.h"; path = "KKLib/Classes/Categories/UIControl+KKClickInterval.h"; sourceTree = "<group>"; };
+		7490BC61DB05400F2FEB77892AB9291B /* KKLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKLib-umbrella.h"; sourceTree = "<group>"; };
+		760650C5586FFFFC688966928E6DAA65 /* NSTimer+KKWeakTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+KKWeakTimer.m"; path = "KKLib/Classes/Categories/NSTimer+KKWeakTimer.m"; sourceTree = "<group>"; };
 		7A82F145361CC4247E80EFDFA9459D40 /* Pods-KKLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		83A514A79D367070C7E0FE3F83E28C18 /* Pods-KKLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKLib_Tests.modulemap"; sourceTree = "<group>"; };
-		93F145189F0EB55395179B698D4615C8 /* Pods_KKLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AD807BBC70093F25498CCDDF0DF93A /* UILabel+KKTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+KKTools.m"; path = "KKLib/Classes/Categories/UILabel+KKTools.m"; sourceTree = "<group>"; };
+		8E0836750063C1445387D0BCA190B461 /* NSString+KKTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KKTools.h"; path = "KKLib/Classes/Categories/NSString+KKTools.h"; sourceTree = "<group>"; };
+		93F145189F0EB55395179B698D4615C8 /* Pods_KKLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKLib_Example.framework; path = "Pods-KKLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		942C79E54AE236652E47180FF859F7B6 /* Pods-KKLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		98CA95BBD5B9C43B2997DE99F1A59185 /* NSTimer+KKWeakTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+KKWeakTimer.m"; path = "KKLib/Classes/Categories/NSTimer+KKWeakTimer.m"; sourceTree = "<group>"; };
-		9B991F58B90B1076906FC59753917B64 /* KKLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKLib.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E80A19D72DAEFFFF845FFCBA3615BB4 /* NSTimer+KKWeakTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+KKWeakTimer.h"; path = "KKLib/Classes/Categories/NSTimer+KKWeakTimer.h"; sourceTree = "<group>"; };
-		9F65A1AD5C7DCAAA961D0ED2714D0535 /* KKDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKDevice.m; path = KKLib/Classes/Tools/KKDevice.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E232BEE7A69A988278EA169766B59CE /* NSString+KKTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+KKTools.m"; path = "KKLib/Classes/Categories/NSString+KKTools.m"; sourceTree = "<group>"; };
 		A1DA3C7F10CB43D4F397BA5616590485 /* Pods-KKLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A56E5564C26C6A9E2C9BF1403C4401F0 /* KKStyleConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKStyleConfig.h; path = KKLib/Classes/Configs/KKStyleConfig.h; sourceTree = "<group>"; };
 		A6F3BA8BB284C69A485B518D1756DFA4 /* Pods-KKLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A86FDA52A759515F7B75071C570257E3 /* Pods-KKLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		ACFFC98345CC72916EE12D75C66903BE /* Pods_KKLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2594AF30EB509812EF5E05141A99D52 /* KKStyleConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKStyleConfig.h; path = KKLib/Classes/Configs/KKStyleConfig.h; sourceTree = "<group>"; };
+		AA794488B70BE33486DB15113F1AFAF3 /* KKToolConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKToolConfig.h; path = KKLib/Classes/Configs/KKToolConfig.h; sourceTree = "<group>"; };
+		ABC6DC434DB3E23D0F9D513F1A0CFB49 /* KKLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKLib-Info.plist"; sourceTree = "<group>"; };
+		ACFFC98345CC72916EE12D75C66903BE /* Pods_KKLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKLib_Tests.framework; path = "Pods-KKLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6EA958B0F813C8D63A835E3E3BCB92 /* Pods-KKLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKLib_Example-Info.plist"; sourceTree = "<group>"; };
-		C0AADDCE45B8B1D402F89DE9913F667A /* KKLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKLib-dummy.m"; sourceTree = "<group>"; };
-		CD04357C3522542831CE30D49AB3538C /* NSString+KKTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KKTools.h"; path = "KKLib/Classes/Categories/NSString+KKTools.h"; sourceTree = "<group>"; };
-		D027CD06A46AD1967DF07373FEAEE452 /* UILabel+KKTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+KKTools.m"; path = "KKLib/Classes/Categories/UILabel+KKTools.m"; sourceTree = "<group>"; };
-		D38009AB61A894B09E92618C8F87DAD7 /* UIControl+KKClickInterval.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+KKClickInterval.h"; path = "KKLib/Classes/Categories/UIControl+KKClickInterval.h"; sourceTree = "<group>"; };
-		D3D99004ABF47A5FC646371B6A1CF2DA /* KKDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKDevice.h; path = KKLib/Classes/Tools/KKDevice.h; sourceTree = "<group>"; };
-		D842A516A9F823D7D6D3A6B7D7855D41 /* UIControl+KKClickInterval.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+KKClickInterval.m"; path = "KKLib/Classes/Categories/UIControl+KKClickInterval.m"; sourceTree = "<group>"; };
+		D20046189A92F4FEAA2230A0FC78BCD1 /* UIControl+KKClickInterval.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+KKClickInterval.m"; path = "KKLib/Classes/Categories/UIControl+KKClickInterval.m"; sourceTree = "<group>"; };
+		D25B884AEACCDD6AD7D750752646B6D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D75F0B572C6F627368F810AF9081E407 /* UIView+KKTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KKTools.m"; path = "KKLib/Classes/Categories/UIView+KKTools.m"; sourceTree = "<group>"; };
 		DBCF156543DBADF88F273C0929E3F586 /* Pods-KKLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DF047E931058447B11D02FF79604D736 /* Pods-KKLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EBA3162FBD419F9906FDDD9AF56F098A /* KKLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKLib.release.xcconfig; sourceTree = "<group>"; };
-		F21F8846C8F33268F2EDD430654C9422 /* KKLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KKLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F72B31195BB6C0FA5A08CEF9FF611F3D /* KKToolConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKToolConfig.h; path = KKLib/Classes/Configs/KKToolConfig.h; sourceTree = "<group>"; };
-		FC7BCC1104468D3EE79CA675E96BE0D9 /* UIView+KKTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KKTools.m"; path = "KKLib/Classes/Categories/UIView+KKTools.m"; sourceTree = "<group>"; };
+		E64BAA03D3CBC76CEE011A954F67E4C0 /* NSTimer+KKWeakTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+KKWeakTimer.h"; path = "KKLib/Classes/Categories/NSTimer+KKWeakTimer.h"; sourceTree = "<group>"; };
+		EB896817DDB0F36B3FA48F40E94564DA /* KKLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKLib.release.xcconfig; sourceTree = "<group>"; };
+		EF7C39452C12A1DA282DD10E3F38608E /* KKLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKLib.debug.xcconfig; sourceTree = "<group>"; };
 		FFBFC3D2B337914984FD34B592E9D307 /* Pods-KKLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,11 +119,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1892F8AA5DFD4A6CCA2C83391AAE63F /* Frameworks */ = {
+		9EBB0183E538F9675EE447FB06B07C32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23FA38859285F4B9ED723BA2047D13A5 /* Foundation.framework in Frameworks */,
+				3E1E2693A6522519FCCEFB0D2DA6F61D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +138,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01588A7E852355746CDFB2A3A3C4F11D /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				A56E5564C26C6A9E2C9BF1403C4401F0 /* KKStyleConfig.h */,
+				AA794488B70BE33486DB15113F1AFAF3 /* KKToolConfig.h */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		21F5DAE93839CBD2F8095156241B5BDF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8E0836750063C1445387D0BCA190B461 /* NSString+KKTools.h */,
+				9E232BEE7A69A988278EA169766B59CE /* NSString+KKTools.m */,
+				E64BAA03D3CBC76CEE011A954F67E4C0 /* NSTimer+KKWeakTimer.h */,
+				760650C5586FFFFC688966928E6DAA65 /* NSTimer+KKWeakTimer.m */,
+				38AE82571615D1E60700089271EBD6A0 /* UIApplication+KKVisible.h */,
+				2B3197B8DFB278DBFEC2529A1AF0CA16 /* UIApplication+KKVisible.m */,
+				70789251734076AA2F25E0242AC94310 /* UIControl+KKClickInterval.h */,
+				D20046189A92F4FEAA2230A0FC78BCD1 /* UIControl+KKClickInterval.m */,
+				135D8CB544C40479C15CEC46160B293F /* UIImage+KKTools.h */,
+				284E5B139F475CC25BDB5D22BE66A5B6 /* UIImage+KKTools.m */,
+				6BEA7739B6FADF99429C4093F5803B89 /* UIImageView+KKTools.h */,
+				5FF64C89A8F0D169ED63891E348D368E /* UIImageView+KKTools.m */,
+				2D3FE33FBF0172D1F09EF1C2FE00D34D /* UILabel+KKTools.h */,
+				86AD807BBC70093F25498CCDDF0DF93A /* UILabel+KKTools.m */,
+				3266ECDE31D17FC586A9485783905855 /* UIView+KKTools.h */,
+				D75F0B572C6F627368F810AF9081E407 /* UIView+KKTools.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		27469077F099F071E99296683E92D6D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,27 +196,23 @@
 			path = "Target Support Files/Pods-KKLib_Tests";
 			sourceTree = "<group>";
 		};
-		428596D26515D08FED9A323645B89E76 /* KKLib */ = {
+		3CC08D18E6429AA79CE37A9335F53C45 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				58F682D6959F54D6E6A42AC3DBD0EE8E /* Categories */,
-				E3A2C6803B9023BE9CC3516BF7EE24E1 /* Configs */,
-				44142EF25493C89046C1EB40DD073C0A /* Pod */,
-				C24BD3E48E0234B29DDD873AE5AB3386 /* Support Files */,
-				CBAD49B8F68D510B70800DB166311803 /* Tools */,
-			);
-			name = KKLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		44142EF25493C89046C1EB40DD073C0A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F21F8846C8F33268F2EDD430654C9422 /* KKLib.podspec */,
-				4E071A8237828A1ED4C9CC395ABC39ED /* LICENSE */,
-				36903BB8F44E26D3D036385A7D119451 /* README.md */,
+				2A593F8A62856C961FED1CB6A50611A7 /* KKLib.podspec */,
+				D25B884AEACCDD6AD7D750752646B6D5 /* LICENSE */,
+				1ECC93158DDAD6734A4DEB5A0CDAA292 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		4B343CAE95A5FB82590A8247CE984B0F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				607B2BF1DFC123C6B76B3311379F9DCD /* KKDevice.h */,
+				24ACB107274B4E8B178505EADBB35007 /* KKDevice.m */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 		534C6D816E00CC200A79CA4D72B74B69 /* Targets Support Files */ = {
@@ -196,27 +224,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		58F682D6959F54D6E6A42AC3DBD0EE8E /* Categories */ = {
+		6F86F54AC8785776E11A638EE7077F31 /* KKLib */ = {
 			isa = PBXGroup;
 			children = (
-				9E80A19D72DAEFFFF845FFCBA3615BB4 /* NSTimer+KKWeakTimer.h */,
-				98CA95BBD5B9C43B2997DE99F1A59185 /* NSTimer+KKWeakTimer.m */,
-				1988806522C7C85B7DED4ACB027D6A39 /* UIApplication+KKVisible.h */,
-				0340FBE16E68A00123B7950966462E22 /* UIApplication+KKVisible.m */,
-				D38009AB61A894B09E92618C8F87DAD7 /* UIControl+KKClickInterval.h */,
-				D842A516A9F823D7D6D3A6B7D7855D41 /* UIControl+KKClickInterval.m */,
-				6411D745F0D7CC32020FB3B7E6C82762 /* UILabel+KKTools.h */,
-				D027CD06A46AD1967DF07373FEAEE452 /* UILabel+KKTools.m */,
-				45149ED7C8545D8F733C454188C9BD68 /* UIView+KKTools.h */,
-				FC7BCC1104468D3EE79CA675E96BE0D9 /* UIView+KKTools.m */,
-				CD04357C3522542831CE30D49AB3538C /* NSString+KKTools.h */,
-				48EF55DCB268496BF90E35354A421672 /* NSString+KKTools.m */,
-				321263582512FE7700210AFA /* UIImage+KKTools.h */,
-				321263592512FE7700210AFA /* UIImage+KKTools.m */,
-				3212635C251301CE00210AFA /* UIImageView+KKTools.h */,
-				3212635D251301CE00210AFA /* UIImageView+KKTools.m */,
+				21F5DAE93839CBD2F8095156241B5BDF /* Categories */,
+				01588A7E852355746CDFB2A3A3C4F11D /* Configs */,
+				3CC08D18E6429AA79CE37A9335F53C45 /* Pod */,
+				C6E22CFD19A94B86A3C749743DE4C4FC /* Support Files */,
+				4B343CAE95A5FB82590A8247CE984B0F /* Tools */,
 			);
-			name = Categories;
+			name = KKLib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A0FE55962C7255E2FD40D8F583A365F5 /* Pods-KKLib_Example */ = {
@@ -244,28 +262,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C24BD3E48E0234B29DDD873AE5AB3386 /* Support Files */ = {
+		C6E22CFD19A94B86A3C749743DE4C4FC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B991F58B90B1076906FC59753917B64 /* KKLib.modulemap */,
-				C0AADDCE45B8B1D402F89DE9913F667A /* KKLib-dummy.m */,
-				496FC8952A95063148C6A1B5515C2907 /* KKLib-Info.plist */,
-				75F7130DF576B9CE5F3C03965F428EBD /* KKLib-prefix.pch */,
-				13BCF3270D1D832955AE3E2D7E1E03D3 /* KKLib-umbrella.h */,
-				28485E48A7BB6A691A7C6B406A3FB166 /* KKLib.debug.xcconfig */,
-				EBA3162FBD419F9906FDDD9AF56F098A /* KKLib.release.xcconfig */,
+				44CD053EE4FC26EA0CBE7295D0FFAE1C /* KKLib.modulemap */,
+				17A1A22DE9C614168EE69CAA31D82FB9 /* KKLib-dummy.m */,
+				ABC6DC434DB3E23D0F9D513F1A0CFB49 /* KKLib-Info.plist */,
+				5E237A7246D69A3EFC18CB1BFFA17EDD /* KKLib-prefix.pch */,
+				7490BC61DB05400F2FEB77892AB9291B /* KKLib-umbrella.h */,
+				EF7C39452C12A1DA282DD10E3F38608E /* KKLib.debug.xcconfig */,
+				EB896817DDB0F36B3FA48F40E94564DA /* KKLib.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/KKLib";
-			sourceTree = "<group>";
-		};
-		CBAD49B8F68D510B70800DB166311803 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				D3D99004ABF47A5FC646371B6A1CF2DA /* KKDevice.h */,
-				9F65A1AD5C7DCAAA961D0ED2714D0535 /* KKDevice.m */,
-			);
-			name = Tools;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -287,19 +296,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E3A2C6803B9023BE9CC3516BF7EE24E1 /* Configs */ = {
-			isa = PBXGroup;
-			children = (
-				B2594AF30EB509812EF5E05141A99D52 /* KKStyleConfig.h */,
-				F72B31195BB6C0FA5A08CEF9FF611F3D /* KKToolConfig.h */,
-			);
-			name = Configs;
-			sourceTree = "<group>";
-		};
 		FFED677EAAA9B39988D18CCB98067084 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				428596D26515D08FED9A323645B89E76 /* KKLib */,
+				6F86F54AC8785776E11A638EE7077F31 /* KKLib */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -315,22 +315,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99AB7CD0C280738CFF691ACE3395940F /* Headers */ = {
+		AAEB6341EED5CDB99D6C5C49E5CA47DD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEBB51D8224A264753280C392C737DFD /* KKDevice.h in Headers */,
-				3212635E251301CE00210AFA /* UIImageView+KKTools.h in Headers */,
-				3212635A2512FE7700210AFA /* UIImage+KKTools.h in Headers */,
-				EC796859E7F51BE9031D6405D1EBCEDB /* KKLib-umbrella.h in Headers */,
-				853B7BD3619EADEDFB3B5749FD339405 /* KKStyleConfig.h in Headers */,
-				E92E50327CF4FB7903126022F6613E5B /* KKToolConfig.h in Headers */,
-				FCA2986BB6ACB304F98EDB9AE6879BA4 /* NSString+KKTools.h in Headers */,
-				D79BB2CB26E38E6BA2C18CE129DFF986 /* NSTimer+KKWeakTimer.h in Headers */,
-				BCA1C5CAA02A9622958807E2FF5B567A /* UIApplication+KKVisible.h in Headers */,
-				FE591EFD3FF50874B408771CB0AF2F9A /* UIControl+KKClickInterval.h in Headers */,
-				DD466FB30FD27BAD428C6FC680A7E307 /* UILabel+KKTools.h in Headers */,
-				E229108EC8B3D2B81E4653BC0B2CDABB /* UIView+KKTools.h in Headers */,
+				6F516094CA303DCF772BF5CD387AA491 /* KKDevice.h in Headers */,
+				18994E7CC22A6D6BF67DB95F98D84E8F /* KKLib-umbrella.h in Headers */,
+				AC788D1A4F603AFB68E88F93F1407C42 /* KKStyleConfig.h in Headers */,
+				DEE75C55E14CE971539681D2D88DA4A2 /* KKToolConfig.h in Headers */,
+				AEBB633A260174652012FFB28CD1E39A /* NSString+KKTools.h in Headers */,
+				573718C7D093342841F272882200A9E3 /* NSTimer+KKWeakTimer.h in Headers */,
+				C6EE523183BCB4DD253896C183EFA1DA /* UIApplication+KKVisible.h in Headers */,
+				71AFB89F010C4A7C2CE98CD281D0E6EA /* UIControl+KKClickInterval.h in Headers */,
+				A62C5F1996629DF6C2F94D1324D4AACD /* UIImage+KKTools.h in Headers */,
+				EA357234341D271FC4366822B60A840B /* UIImageView+KKTools.h in Headers */,
+				B11463983A962F523572386F6C9E14E8 /* UILabel+KKTools.h in Headers */,
+				96BFF4F9D4FD8B1F816328BDCE5CD617 /* UIView+KKTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,12 +347,12 @@
 /* Begin PBXNativeTarget section */
 		4361A5FE9622311B019B183FEDCD9434 /* KKLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 535C0BDA3FAB5183D2E3F5D5F172637F /* Build configuration list for PBXNativeTarget "KKLib" */;
+			buildConfigurationList = AD696BD186318C892BFCE98D9DF518F8 /* Build configuration list for PBXNativeTarget "KKLib" */;
 			buildPhases = (
-				99AB7CD0C280738CFF691ACE3395940F /* Headers */,
-				5EA2B4AA9720034D23D66E02DBC16A1E /* Sources */,
-				C1892F8AA5DFD4A6CCA2C83391AAE63F /* Frameworks */,
-				0F15EB48187A6DF9D85D87BD74610577 /* Resources */,
+				AAEB6341EED5CDB99D6C5C49E5CA47DD /* Headers */,
+				8C9711438CACAA26C1C3DC606A5A868F /* Sources */,
+				9EBB0183E538F9675EE447FB06B07C32 /* Frameworks */,
+				D9BC84BE49261C99F65E005C17B11DB2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -375,7 +375,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				5B8DE683BBC573166DF6826A8C00AC14 /* PBXTargetDependency */,
+				AB908214D08316D047116C75CB4296ED /* PBXTargetDependency */,
 			);
 			name = "Pods-KKLib_Tests";
 			productName = "Pods-KKLib_Tests";
@@ -394,7 +394,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A9549992D5817D752BB4C2B1F847FCF3 /* PBXTargetDependency */,
+				88CAECADB16F1C689E5A69F3E561FDDD /* PBXTargetDependency */,
 			);
 			name = "Pods-KKLib_Example";
 			productName = "Pods-KKLib_Example";
@@ -431,13 +431,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0F15EB48187A6DF9D85D87BD74610577 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A2F3CD8E2712A5A6E195714A161F19F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -446,6 +439,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D754A10AAB049752E801B4FDCE7AA086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BC84BE49261C99F65E005C17B11DB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -463,20 +463,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5EA2B4AA9720034D23D66E02DBC16A1E /* Sources */ = {
+		8C9711438CACAA26C1C3DC606A5A868F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3212635F251301CE00210AFA /* UIImageView+KKTools.m in Sources */,
-				97F717AE3650F0DE3072D38FAB9B5F35 /* KKDevice.m in Sources */,
-				900D6DE4ED35141934A3ADC8126E8751 /* KKLib-dummy.m in Sources */,
-				28B4C74BC03A4C0BDF405EB9DA97613D /* NSString+KKTools.m in Sources */,
-				FFAB27E9508ACF6011F4E8AB5F58A8A1 /* NSTimer+KKWeakTimer.m in Sources */,
-				3212635B2512FE7700210AFA /* UIImage+KKTools.m in Sources */,
-				A4927A9F763EDA3FB28BDD43D4C39D58 /* UIApplication+KKVisible.m in Sources */,
-				D854BDD948CBF51810668A38E47BDE3C /* UIControl+KKClickInterval.m in Sources */,
-				8E662B016459ED2FA13E937A0587123D /* UILabel+KKTools.m in Sources */,
-				D88ED2EB6DD5A77A95479BA73095F3F1 /* UIView+KKTools.m in Sources */,
+				925263E70E48F852C7B0052464EE69D7 /* KKDevice.m in Sources */,
+				3E483A9B22245B58065B2E00B3F6EDC3 /* KKLib-dummy.m in Sources */,
+				C4B75AFB8DE07D43FDEFF215B51A9E4A /* NSString+KKTools.m in Sources */,
+				4BE7B916E7ADD49D41F7DA52787B3348 /* NSTimer+KKWeakTimer.m in Sources */,
+				8562DBAE48463434EB9088A8B040B511 /* UIApplication+KKVisible.m in Sources */,
+				3739E3DBC138FD25E4C0C6C53C408F77 /* UIControl+KKClickInterval.m in Sources */,
+				4ADD9F02CD777A287B834AAC4C8BCCD4 /* UIImage+KKTools.m in Sources */,
+				B6C38ADC0319788E191D60FE3861125A /* UIImageView+KKTools.m in Sources */,
+				77F2896C752955A58458590A4BBC4F3A /* UILabel+KKTools.m in Sources */,
+				FDC4A841CC8079D7C9B28B588B8F77DB /* UIView+KKTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,17 +491,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5B8DE683BBC573166DF6826A8C00AC14 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-KKLib_Example";
-			target = 8A0233772E0CB9FF3167CBA19EB36A19 /* Pods-KKLib_Example */;
-			targetProxy = 9AF4BADC7E4DBD50F8A4535B0C333A93 /* PBXContainerItemProxy */;
-		};
-		A9549992D5817D752BB4C2B1F847FCF3 /* PBXTargetDependency */ = {
+		88CAECADB16F1C689E5A69F3E561FDDD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KKLib;
 			target = 4361A5FE9622311B019B183FEDCD9434 /* KKLib */;
-			targetProxy = 550E6B54E1C208D486FC50387E570F7E /* PBXContainerItemProxy */;
+			targetProxy = 8AD995530D044A80E6E6A462033B83E5 /* PBXContainerItemProxy */;
+		};
+		AB908214D08316D047116C75CB4296ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KKLib_Example";
+			target = 8A0233772E0CB9FF3167CBA19EB36A19 /* Pods-KKLib_Example */;
+			targetProxy = 9FDDB157D6ACE4B68AF81BAC6381F1FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -533,6 +533,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1361B3EA0DA5F412763ED4B73D27F41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB896817DDB0F36B3FA48F40E94564DA /* KKLib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKLib/KKLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKLib/KKLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KKLib/KKLib.modulemap";
+				PRODUCT_MODULE_NAME = KKLib;
+				PRODUCT_NAME = KKLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -607,37 +639,6 @@
 			};
 			name = Release;
 		};
-		5AA89F4C4C14CFC27EFF707F0ED06924 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28485E48A7BB6A691A7C6B406A3FB166 /* KKLib.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KKLib/KKLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KKLib/KKLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KKLib/KKLib.modulemap";
-				PRODUCT_MODULE_NAME = KKLib;
-				PRODUCT_NAME = KKLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -691,7 +692,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -761,6 +763,37 @@
 			};
 			name = Debug;
 		};
+		B1F5299743D397CFDA4B66D37E03726F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7C39452C12A1DA282DD10E3F38608E /* KKLib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKLib/KKLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKLib/KKLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KKLib/KKLib.modulemap";
+				PRODUCT_MODULE_NAME = KKLib;
+				PRODUCT_NAME = KKLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C633D3B1A81B0B42BF2F4D7972C8E9DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FFBFC3D2B337914984FD34B592E9D307 /* Pods-KKLib_Example.debug.xcconfig */;
@@ -794,38 +827,6 @@
 			};
 			name = Debug;
 		};
-		D04F8F5A0B587017A6785B98514876F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBA3162FBD419F9906FDDD9AF56F098A /* KKLib.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KKLib/KKLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KKLib/KKLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KKLib/KKLib.modulemap";
-				PRODUCT_MODULE_NAME = KKLib;
-				PRODUCT_NAME = KKLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -834,15 +835,6 @@
 			buildConfigurations = (
 				916E0404255105F480DC4950B7625F7A /* Debug */,
 				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		535C0BDA3FAB5183D2E3F5D5F172637F /* Build configuration list for PBXNativeTarget "KKLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5AA89F4C4C14CFC27EFF707F0ED06924 /* Debug */,
-				D04F8F5A0B587017A6785B98514876F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -861,6 +853,15 @@
 			buildConfigurations = (
 				13D36E8F3F450D977307BE047B0D72F9 /* Debug */,
 				250479F948C67F5CCA0AFFE13B4451AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD696BD186318C892BFCE98D9DF518F8 /* Build configuration list for PBXNativeTarget "KKLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F5299743D397CFDA4B66D37E03726F /* Debug */,
+				1361B3EA0DA5F412763ED4B73D27F41A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
