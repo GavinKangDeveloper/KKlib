@@ -62,12 +62,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 #pragma mark - 其它功能
-/**
- 小数点后字体缩小
- @param font 文本字体大小
- @return NSAttributedString 富文本内容
- */
-- (NSAttributedString *)kk_attributeForDecimalScaleWithFont:(UIFont *)font;
+
+
 
 #pragma mark - 打开
 /**

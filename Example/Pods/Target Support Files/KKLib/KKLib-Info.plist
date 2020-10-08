@@ -22,5 +22,7 @@
 	<string>${CURRENT_PROJECT_VERSION}</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
+	<key>WARNING_CFLAGS</key>
+	<string>-Wno-arc-performSelector-leaks</string>
 </dict>
 </plist>
