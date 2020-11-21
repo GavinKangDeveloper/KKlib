@@ -1,11 +1,11 @@
 PODS:
-  - KKLib (0.1.0):
-    - KKLib/Categories (= 0.1.0)
-    - KKLib/Configs (= 0.1.0)
-    - KKLib/Tools (= 0.1.0)
-  - KKLib/Categories (0.1.0)
-  - KKLib/Configs (0.1.0)
-  - KKLib/Tools (0.1.0)
+  - KKLib (0.1.1):
+    - KKLib/Categories (= 0.1.1)
+    - KKLib/Configs (= 0.1.1)
+    - KKLib/Tools (= 0.1.1)
+  - KKLib/Categories (0.1.1)
+  - KKLib/Configs (0.1.1)
+  - KKLib/Tools (0.1.1)
 
 DEPENDENCIES:
   - KKLib (from `../`)
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KKLib: 815c5c9f2eb27a8b42078ecc32a3080431bf67ec
+  KKLib: f1e8f8c4bf0fbd93f1b6eb12c2e3b63739315d9b
 
 PODFILE CHECKSUM: 62bb56ffc0be986753386cd030ad12c2de369484
 
