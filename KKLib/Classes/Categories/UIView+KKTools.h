@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (KKTools)
 
-#pragma mark - 获得当前 frame 相关属性
+#pragma mark - 获得当前 frame 相关属
 @property (nonatomic, assign) CGFloat kk_x;
 @property (nonatomic, assign) CGFloat kk_y;
 @property (nonatomic, assign) CGFloat kk_centerX;
@@ -67,6 +67,15 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param endColor 结束颜色
 /// @param endPoint 结束点
 - (void)kk_addGradientLayerWithStartColor:(UIColor *)startColor startPoint:(CGPoint)startPoint endColor:(UIColor *)endColor endPoint:(CGPoint)endPoint;
+
+#pragma mark - 抖动动画
+- (void)kk_startAnimationShake;
+- (void)kk_startAnimationShakeWithDuration:(CFTimeInterval)duration repeatCount:(NSInteger)repeatCount key:(NSString *)key;
+
+
+#pragma mark - UI创建方法
+
+
 
 @end
 

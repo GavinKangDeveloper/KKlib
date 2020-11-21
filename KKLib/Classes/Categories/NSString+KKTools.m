@@ -20,8 +20,9 @@
                                            NSFontAttributeName : font
                                        }
                                           context:nil].size;
-    CGFloat height = titleSize.height + 4;
+    CGFloat height = titleSize.height;
     if (lineHeight > 0) {
+        height = titleSize.height + 4;
         height += titleSize.height / font.pointSize * lineHeight;
     }
     return height;
@@ -170,6 +171,27 @@
     [NSString kk_open:[NSString stringWithFormat:@"sms://%@", self]];
 }
 
+#pragma mark - 其它功能
+- (BOOL)kk_checkIsNull:(BOOL)shouldRemoveSpaces {
+    NSString *string = self;
+    if (shouldRemoveSpaces) {
+        string =[string stringByReplacingOccurrencesOfString:@" " withString:@""];
+    }
+    if (string.length == 0) {
+        return YES;
+    }
+    return NO;
+}
+
+- (NSString *)kk_getFirstCharactor {
+    NSMutableString *mutStr = [NSMutableString stringWithString:self];
+    CFStringTransform((CFMutableStringRef)mutStr, NULL, kCFStringTransformMandarinLatin, NO);
+    CFStringTransform((CFMutableStringRef)mutStr, NULL, kCFStringTransformStripDiacritics, NO);
+    NSString *charactors = [mutStr capitalizedString];
+    return [charactors substringToIndex:1];
+}
+
+#pragma mark - 修改阿里云图片的尺寸
 - (NSString *)kk_imageResize:(CGSize)size {
     // 阿里云图片缩放指南： https://help.aliyun.com/document_detail/44688.html?spm=a2c4g.11186623.6.973.w4KsjY
     // 等比缩放，限定在矩形框外：将图缩略成宽度为100，高度为100，按短边优先。
@@ -192,6 +214,7 @@
     return [self kk_imageResize:CGSizeMake(minValue, minValue)];
 }
 
+#pragma mark - 字典、数组、字符串的相互转换
 + (NSString *)kk_dictionaryToJSON:(NSDictionary *)dic {
     return [self objectToJSON:dic];
 }

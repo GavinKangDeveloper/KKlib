@@ -49,6 +49,35 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (UIImage *)kk_rescaleImageOfScale:(CGFloat)scale;
 
+#pragma mark - 添加水印
+/**
+ 添加水印文字
+ 
+ @param text 文字内容
+ @param alignment 字体的样式
+ @param fontSize 字体大小
+ @param textColor 字体颜色
+ @param rect 添加文字的位置，以图片左上角为原点
+ */
+- (UIImage *)kk_waterMarkImageText:(NSString *)text alignment:(NSTextAlignment)alignment fontSize:(CGFloat)fontSize textColor:(UIColor *)textColor WithRect:(CGRect)rect;
+
+/**
+ 方法一：添加水印图片
+
+ @param logoImage 水印图片
+ @param rect 添加图片的位置，以图片左上角为原点
+ */
+- (UIImage *)kk_addImageLogo:(UIImage *)logoImage WithRect:(CGRect)rect;
+
+/**
+ 方法二：添加水印图片
+
+ @param logoImage 水印图片
+ @param rect 添加图片的位置，以图片左上角为原点
+ */
+- (UIImage *)kk_addImageLogo:(UIImage *)logoImage WithLogoRect:(CGRect)rect;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

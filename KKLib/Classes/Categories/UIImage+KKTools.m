@@ -68,5 +68,47 @@
     return [self kk_rescaleImageToSize:size];
 }
 
+#pragma mark - 添加水印
+- (UIImage *)kk_waterMarkImageText:(NSString *)text alignment:(NSTextAlignment)alignment fontSize:(CGFloat)fontSize textColor:(UIColor *)textColor WithRect:(CGRect)rect {
+    //1.获取上下文
+    UIGraphicsBeginImageContext(self.size);
+    [self drawInRect:CGRectMake(0, 0, self.size.width, self.size.height)];
+    NSMutableParagraphStyle *style = [[NSMutableParagraphStyle defaultParagraphStyle] mutableCopy];
+    style.alignment = alignment;
+    NSDictionary *dic = @{
+                          NSFontAttributeName:[UIFont systemFontOfSize:fontSize],
+                          NSParagraphStyleAttributeName:style,
+                          NSForegroundColorAttributeName:textColor
+                          };
+    //将文字绘制上去
+    [text drawInRect:rect withAttributes:dic];
+    //4.获取绘制到得图片
+    UIImage *watermarkImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return watermarkImage;
+}
+
+- (UIImage *)kk_addImageLogo:(UIImage *)logoImage WithRect:(CGRect)rect {
+    UIGraphicsBeginImageContext(self.size);
+    [self drawInRect:CGRectMake(0, 0, self.size.width, self.size.height)];
+    [logoImage drawInRect:rect];
+    UIImage *resultingImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return resultingImage;
+}
+
+- (UIImage *)kk_addImageLogo:(UIImage *)logoImage WithLogoRect:(CGRect)rect {
+    int w = self.size.width;
+    int h = self.size.height;
+    CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
+    CGContextRef context = CGBitmapContextCreate(NULL, w, h, 8, 4 * w, colorSpace, kCGImageAlphaPremultipliedFirst);
+    CGContextDrawImage(context, CGRectMake(0, 0, w, h), self.CGImage);
+    CGContextDrawImage(context, rect, logoImage.CGImage);
+    CGImageRef imageMasked = CGBitmapContextCreateImage(context);
+    CGContextRelease(context);
+    CGColorSpaceRelease(colorSpace);
+    return [UIImage imageWithCGImage:imageMasked];
+}
+
 
 @end

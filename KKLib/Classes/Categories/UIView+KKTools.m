@@ -9,7 +9,7 @@
 
 @implementation UIView (KKTools)
 
-
+#pragma mark - 获得当前 frame 相关属性
 - (void)setKk_x:(CGFloat)kk_x {
     CGRect frame = self.frame;
     frame.origin.x = kk_x;
@@ -91,6 +91,7 @@
     return self.frame.origin;
 }
 
+#pragma mark - 设置圆角
 //下面的方法会引起离屏渲染
 - (void)kk_cornerWithOvalInRect:(CGRect)rect {
     CAShapeLayer *layer = [CAShapeLayer layer];
@@ -154,5 +155,34 @@
     }
 }
 
+#pragma mark - 抖动动画
+- (void)kk_startAnimationShake {
+    [self kk_startAnimationShakeWithDuration:0.06 repeatCount:3 key:nil];
+}
 
+- (void)kk_startAnimationShakeWithDuration:(CFTimeInterval)duration repeatCount:(NSInteger)repeatCount key:(NSString *)key {
+    // 获取到当前的View
+    CALayer *viewLayer = self.layer;
+    // 获取当前View的位置
+    CGPoint position = viewLayer.position;
+    // 移动的两个终点位置
+    CGPoint x = CGPointMake(position.x + 5, position.y);
+    CGPoint y = CGPointMake(position.x - 5, position.y);
+    // 设置动画
+    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"position"];
+    // 设置运动形式
+    [animation setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
+    // 设置开始位置
+    [animation setFromValue:[NSValue valueWithCGPoint:x]];
+    // 设置结束位置
+    [animation setToValue:[NSValue valueWithCGPoint:y]];
+    // 设置自动反转
+    [animation setAutoreverses:YES];
+    // 设置时间
+    [animation setDuration:duration];
+    // 设置次数
+    [animation setRepeatCount:repeatCount];
+    // 添加上动画
+    [viewLayer addAnimation:animation forKey:key];
+}
 @end
