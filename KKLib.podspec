@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KKLib'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '封装常用的功能的分类'
   s.description      = <<-DESC
   封装常用的分类和功能。
