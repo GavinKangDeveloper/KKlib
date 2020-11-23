@@ -40,6 +40,9 @@
 #pragma mark - 判断机型
 #define kkFuncCheckDevice(deviceName) ([[UIDevice currentDevice].model isEqualToString:deviceName])
 
+#pragma mark - 是否大于某个手机系统
+#define kkFuncOverSystemNum(system) @available(iOS system, *)
+
 
 #pragma mark - 是否是 iPhone、iPad、模拟器
 #define kkIsPhone     (kkFuncCheckDevice(@"iPhone") || kkFuncCheckDevice(@"iPhone Simulator"))
@@ -51,7 +54,6 @@
 // @2x 机型：4（320 x 480 pt，3.5 英寸）、5（320 x 568 pt，4 英寸）、6（375 x 667 pt，4.7 英寸）、XR（414 x 896 pt，6.1 英寸）
 // @3x 机型：6Plus（414 x 736 pt，5.5 英寸）、X 和 XS（375 x 812 pt，5.8 英寸，实际手握大小跟 6 差不多）、XSMax（414 x 896 pt，6.5 英寸，实际手握大小跟 Plus 差不多）
 #define kkFuncIsMatchingSize(width, height) ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(width, height), [kkScreen currentMode].size) : NO)
-#define kkIsPhone4         kkFuncIsMatchingSize(640.0, 960.0)
 #define kkIsPhone5         kkFuncIsMatchingSize(640.0, 1136.0)
 #define kkIsPhone6         kkFuncIsMatchingSize(750.0, 1334.0)
 #define kkIsPhone6Plus     kkFuncIsMatchingSize(1242.0, 2208.0)
