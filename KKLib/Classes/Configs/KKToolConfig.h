@@ -60,8 +60,9 @@ isKindOfClass:[NSString class]]) ? [dic objectForKey:key] : @"")
 
 
 #pragma mark - block
-#define kkFuncWeakSelf(object) __weak typeof(object) weak##object = object
-#define kkFuncStrongSelf(object) __strong typeof(object) strong##object = weak##object
+
+#define kkFuncWeakSelf  __weak typeof(self) weakSelf = self;
+#define kkFuncStrongSelf  __strong typeof(self) strongSelf = weakSelf
 #define kkFuncSafeBlock(block, ...) block ? block(__VA_ARGS__) : nil
 
 #endif /* KKToolConfig_h */

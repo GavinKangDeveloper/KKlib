@@ -9,7 +9,6 @@
 #define KKStyleConfig_h
 
 
-
 #pragma mark - 简化写法
 #define kkApplication        [UIApplication sharedApplication]
 #define kkScreen             [UIScreen mainScreen]
@@ -25,11 +24,9 @@
 #define kkBoldFontOfSize(font) [UIFont boldSystemFontOfSize:font]
 
 
-#pragma mark - iOS 版本
+#pragma mark - iOS 系统版本
 #define kkOSVersion [[[UIDevice currentDevice] systemVersion] floatValue]
-#define kkFuncGreaterThanOrEqualToOSVersion(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
-#define kkFuncLessThanOSVersion(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
-
+#define kkOveriOSNum(system) @available(iOS system, *)
 
 #pragma mark - App（包的唯一标示、显示名称、Version 版本）
 #define kkAppBundleIdentifier [kkBundle bundleIdentifier]
@@ -39,9 +36,6 @@
 
 #pragma mark - 判断机型
 #define kkFuncCheckDevice(deviceName) ([[UIDevice currentDevice].model isEqualToString:deviceName])
-
-#pragma mark - 是否大于某个手机系统
-#define kkFuncOverSystemNum(system) @available(iOS system, *)
 
 
 #pragma mark - 是否是 iPhone、iPad、模拟器
@@ -61,7 +55,7 @@
 #define kkIsPhoneXR        kkFuncIsMatchingSize(828.0, 1792.0)
 #define kkIsPhoneXSMax     kkFuncIsMatchingSize(1242.0, 2688.0)
 #define kkIsPhoneXModel    (kkIsPhoneXOrXS || kkIsPhoneXR || kkIsPhoneXSMax)
-#define kkIsPhoneOldModel  (kkIsPhone6Plus || kkIsPhone6 || kkIsPhone5 || kkIsPhone4)
+#define kkIsPhoneOldModel  (kkIsPhone6Plus || kkIsPhone6 || kkIsPhone5)
 
 #pragma mark - 屏幕大小、常用控件高度（状态栏、导航栏、选项卡、HomeBar）
 // 屏幕大小
